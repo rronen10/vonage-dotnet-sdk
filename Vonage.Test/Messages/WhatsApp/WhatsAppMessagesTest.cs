@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using FluentAssertions;
@@ -69,6 +69,7 @@ namespace Vonage.Test.Messages.WhatsApp
                         name = "parcel_location",
                     },
                 },
+                WebhookUrl = "https://webhook/123"
             };
             this.Setup(this.expectedUri, expectedResponse, expectedRequest);
             var response = await this.operation(request);

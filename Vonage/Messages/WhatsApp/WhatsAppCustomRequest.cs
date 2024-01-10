@@ -36,4 +36,10 @@ public struct WhatsAppCustomRequest : IWhatsAppMessage
     /// <inheritdoc />
     [JsonPropertyOrder(2)]
     public string To { get; set; }
+
+    [JsonPropertyOrder(6)]
+    public string WebhookUrl { get; set; }
+
+    [JsonPropertyOrder(7)]
+    public string WebhookVersion => "v1";
 }

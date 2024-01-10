@@ -1,4 +1,4 @@
-{
+﻿{
   "channel": "whatsapp",
   "message_type": "custom",
   "to": "441234567890",
@@ -10,5 +10,7 @@
       "something": "whatsapp:hsm:technology:nexmo",
       "name": "parcel_location"
     }
-  }
+  },
+  "webhook_url": "https://webhook/123",
+  "webhook_version": "v1"
 }
